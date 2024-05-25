@@ -62,7 +62,6 @@ with st.sidebar:
     temperature = st.slider('Temperature', min_value=0.01, max_value=1.0, value=0.1, step=0.01)
     top_p = st.slider('Top_p', min_value=0.01, max_value=1.0, value=0.9, step=0.01)
     max_length = st.slider('Max Length', min_value=32, max_value=128, value=120, step=8)
-    st.markdown('📖 Learn how to build this app in this [blog](https://blog.streamlit.io/how-to-build-a-llama-2-chatbot/)!')
     st.markdown("References: https://www.geeksforgeeks.org/build-chatbot-webapp-with-langchain/, https://www.youtube.com/watch?v=J8TgKxomS2g")
 
 # Initialize session state variables
