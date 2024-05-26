@@ -6,7 +6,7 @@ from prompt_templates import title_template, script_template, memoryT, memoryS
 # Set up Streamlit page configuration
 st.set_page_config(page_title="DigiChat: An LLM Powered Chat")
 
-# Function to generate YouTube link based on a text prompt
+# Function to generate YouTube link based on a text prompt currently points to the resources keeping ethical aspects in consideration
 def generate_youtube_link(prompt_text):
     youtube_link = f"https://www.youtube.com/results?search_query={prompt_text.replace(' ', '+')}"
     return youtube_link
