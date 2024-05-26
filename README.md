@@ -30,6 +30,8 @@ Once we have all the required components, run the below command to visualize the
 
 `streamlit run streamlit_app.py`
 
+Create an account with Replicate, and get API tokens, this will be useful in successfully running the simulation.
+
 ## Demo
 
 Link to experiment is here : https://digichat-yvkhf6ehewja2iduhozucl.streamlit.app/
@@ -39,3 +41,4 @@ Link to experiment is here : https://digichat-yvkhf6ehewja2iduhozucl.streamlit.a
 1. https://www.geeksforgeeks.org/build-chatbot-webapp-with-langchain/
 2. https://www.youtube.com/watch?v=J8TgKxomS2g
 
+Happy experimenting, feel free to reach out to me at digvijayyadav48@gmail.com, if you have any queries :).
