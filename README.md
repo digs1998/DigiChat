@@ -11,15 +11,19 @@ LLM Powered ChatBot using Meta's LLAMA model
 ## How to get started
 
 Create Conda environment
+
 `conda create -n <env> python=3.10`
 
 Activate the environment
+
 `conda activate <env>`
 
 Clone the repository
+
 `git clone https://github.com/digs1998/DigiChat.git`
 
-Run the requirements file to download the libraries by doing 
+Run the requirements file to download the libraries
+
 `pip install -r requirements.txt`
 
 Once we have all the required components, run the below command to visualize the chatbot
