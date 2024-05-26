@@ -13,8 +13,10 @@ LLM Powered ChatBot using Meta's LLAMA model
 Create Conda environment
 `conda create -n <env> python=3.10`
 
-Initialize the anaconda environment in your system (MacOS/Linux/Windows), followed by 
+Activate the environment
+`conda activate <env>`
 
+Clone the repository
 `git clone https://github.com/digs1998/DigiChat.git`
 
 Run the requirements file to download the libraries by doing 
