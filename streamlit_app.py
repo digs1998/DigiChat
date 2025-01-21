@@ -33,8 +33,8 @@ def generate_llama2_response(prompt_input, model, temperature, top_p, max_length
     return response
 
 # Clear chat history
-def clear_chat_history():
-    st.session_state.messages = [{"role": "assistant", "content": "Hi there, how may I assist you today?"}]
+# def clear_chat_history():
+#     st.session_state.messages = [{"role": "assistant", "content": "Hi there, how may I assist you today?"}]
 
 # Sidebar contents
 with st.sidebar:
